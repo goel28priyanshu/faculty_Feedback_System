@@ -1,0 +1,9 @@
+#RewriteEngine On
+#RewriteRule ^ossadminpanel/([0-9a-zA-Z])$ http://localhost/faculty_Feedback_System/login-page.php
+
+
+
+ErrorDocument 404 http://localhost/faculty_Feedback_System/index.php
+ErrorDocument 403 http://localhost/faculty_Feedback_System/index.php
+
+DirectoryIndex http://localhost/faculty_Feedback_System/index.php
